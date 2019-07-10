@@ -7,14 +7,16 @@ import Resume from './resume';
 
 
 const Main = () => (
-  <Switch>
-    <BrowserRouter basename="portfolio"  >
-    <Route exact path="/" component={LandingPage} /> 
-    </BrowserRouter>   
-    <Route path="/contact" component={Contact} />
-    <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
-  </Switch>
+  
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Switch>
+        <Route exact path="/" component={LandingPage} />            
+        <Route path="/contact" component={Contact} />        
+        <Route path="/projects" component={Projects} />
+        <Route path="/resume" component={Resume} />
+      </Switch>
+    </BrowserRouter>
+  
 )
 
 export default Main;
