@@ -2,7 +2,7 @@
   "name": "hugotamayo",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://doctamayot.github.io/portfolio/",
+  "homepage": "https://doctamayot.github.io/portfolio/.",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.2.0",
