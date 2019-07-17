@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 
-import Skills from './skills';
+
 import logo from './hugo.jpg'
+import react from './react.png'
+import express from './express.png'
+
 
 
 class Resume extends Component {
@@ -40,43 +43,48 @@ class Resume extends Component {
 
 
             <Education
+              startYear={2018}
+              endYear={2019}
+              schoolName="Make it Real"
+              schoolDescription="Bootcamp Full Stack Web Developer"
+                />
+            
+            <Education
               startYear={2002}
               endYear={2007}
               schoolName="Politecnico Grancolombiano"
               schoolDescription="Industrial Engineer"
                />
 
-               <Education
-                 startYear={2018}
-                 endYear={2019}
-                 schoolName="Make it Real"
-                 schoolDescription="Bootcamp Full Stack Web Developer"
-                  />
+            
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
               
            
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={100}
-                  />
-                  <Skills
-                    skill="ExpressJS"
-                    progress={70}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={80}
-                      />
-
-
-          </Cell>
+              <span>
+                <img src="https://img.icons8.com/color/144/000000/javascript.png"/>
+              </span>
+              <span>
+                <img src="https://img.icons8.com/color/144/000000/html-5.png"/>
+              </span>
+              <span>
+                <img src="https://img.icons8.com/color/144/000000/bootstrap.png"/>
+              </span>
+              <span>
+                <img style={{width: '11%'}} src={react}/>
+              </span>
+              <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img style={{width: '13%'}} src={express}/>
+              </span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>
+              <img src="https://img.icons8.com/color/144/000000/ruby-gem.png"/>
+              </span>
+              
+            </Cell>
         </Grid>
       </div>
     )

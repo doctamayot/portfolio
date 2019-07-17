@@ -19,7 +19,7 @@ class App extends Component {
                 <a href={process.env.PUBLIC_URL +"/contact"}>Contact</a>
             </Navigation>
         </Header>
-        <Drawer  title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">HUGO TAMAYO ROJAS</Link>}>
+        <Drawer className="hamb"  title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">HUGO TAMAYO ROJAS</Link>}>
             <Navigation>
               <a href={process.env.PUBLIC_URL + "/resume"}>Resume</a>
               <a href={process.env.PUBLIC_URL + "/projects"}>Projects</a>

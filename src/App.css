@@ -2,7 +2,13 @@
   background:red;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, black, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, black, #27221F, #27221F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
+
+/*.hamb{
+  visibility: hidden;
+}*/
+
 
 .landing-grid {
   background:  url("./components/fondo3.jpg") no-repeat center center fixed ;
@@ -54,11 +60,10 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  
   font-weight: bold;
 }
 
@@ -137,3 +142,13 @@ border-radius: 50px;
 a{
   text-decoration: none;
 }
+
+
+@media screen and (min-width: 1028px)  {
+    .material-icons {
+      
+     visibility: hidden
+     ;
+    }
+  }
+

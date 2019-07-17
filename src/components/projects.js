@@ -27,7 +27,7 @@ class Projects extends Component {
               />lexnlaw.com</CardTitle>
             
             <CardText>
-              Webpage of LEX N LAW lawyer´s society.
+            Technology : JQuery, Bootstrap, TweenMax.
             </CardText>
             <CardActions border>
               
@@ -48,10 +48,10 @@ class Projects extends Component {
               />.com</CardTitle>
             
             <CardText>
-              Webpage of Reconciliemos Colombia .
+              Technology : JQuery, Bootstrap.
             </CardText>
             <CardActions border>
-            <Button colored><a href='http://www.lexnlaw.com'>Enjoy</a></Button>
+            <Button colored><a href='http://www.reconciliemoscolombia.com'>Enjoy</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -71,7 +71,7 @@ class Projects extends Component {
               All projects of Make it Real Bootcamp FULL STACK WEB DEVELOPER .
             </CardText>
             <CardActions border>
-            <Button colored><a href='http://www.makeitreal.camp'>Enjoy</a></Button>
+            <Button colored><a href='https://www.makeitreal.camp/u/doctamayot'>Enjoy</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
