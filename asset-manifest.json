@@ -1,11 +1,12 @@
 {
-  "main.css": "static/css/main.e80e5882.css",
-  "main.css.map": "static/css/main.e80e5882.css.map",
-  "main.js": "static/js/main.d8a1c4db.js",
-  "main.js.map": "static/js/main.d8a1c4db.js.map",
+  "main.css": "static/css/main.eabd3e4a.css",
+  "main.css.map": "static/css/main.eabd3e4a.css.map",
+  "main.js": "static/js/main.758940bf.js",
+  "main.js.map": "static/js/main.758940bf.js.map",
   "static\\media\\fondo3.jpg": "static/media/fondo3.a82a36fd.jpg",
   "static\\media\\hugo.jpg": "static/media/hugo.e04c8238.jpg",
   "static\\media\\lex.jpg": "static/media/lex.664e0b0d.jpg",
-  "static\\media\\make.jpg": "static/media/make.1769c78a.jpg",
+  "static\\media\\make.jpg": "static/media/make.5313eccc.jpg",
+  "static\\media\\react.png": "static/media/react.15b9a8a6.png",
   "static\\media\\recon.jpg": "static/media/recon.9879f48c.jpg"
 }
