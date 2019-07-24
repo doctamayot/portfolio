@@ -21,7 +21,7 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <hr/>
 
-            <div className="contact-list">
+            <div className="contact-list letra">
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
@@ -32,8 +32,8 @@ class Contact extends Component {
 
                 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
+                  <ListItemContent className='letraemail' style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-envelope " aria-hidden="true"/>
                     doctamayot@hotmail.com
                   </ListItemContent>
                 </ListItem>

@@ -22,8 +22,8 @@ class Resume extends Component {
                 style={{height: '400px'}}
                  />
             </div>
-
-            <h2 style={{paddingTop: '1em'}}>Hugo Tamayo Rojas</h2>
+            <div className="letra">
+            
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>Hello, I’m a full-stack web developer and industrial engineer from Bogotá, Colombia. My passion is programming, that´s the reason so I decided to start my career as web developer..</p>
@@ -35,8 +35,9 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>doctamayot@hotmail.com</p>
             <h5>Web</h5>
-            <p>https://doctamayot.github.io/portfolio</p>
+            <p>https://doctamayot.github.io </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -57,32 +58,49 @@ class Resume extends Component {
                />
 
             
-                <hr style={{borderTop: '3px solid #e22947'}} />
-
-              
-           
               <hr style={{borderTop: '3px solid #e22947'}} />
+              <hr style={{borderTop: '3px solid #e22947'}} />
+
+              <div style={{display: 'inline'}}>
               <h2>Skills</h2>
               <span>
-                <img src="https://img.icons8.com/color/144/000000/javascript.png"/>
+                
+              JavaScript <img src="https://img.icons8.com/color/144/000000/javascript.png"/>                
               </span>
               <span>
-                <img src="https://img.icons8.com/color/144/000000/html-5.png"/>
+             
+              Html <img src="https://img.icons8.com/color/144/000000/html-5.png"/>
               </span>
               <span>
-                <img src="https://img.icons8.com/color/144/000000/bootstrap.png"/>
+
+              <span>
+              
+              CSS <img src="https://img.icons8.com/color/144/000000/css3.png"/>
+              </span>
+             
+              Bootstrap  <img src="https://img.icons8.com/color/144/000000/bootstrap.png"/>
               </span>
               <span>
-                <img style={{width: '11%'}} src={react}/>
+              
+              ReactJS <img style={{width: '11%'}} src={react}/>
               </span>
               <span>
+              
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <img style={{width: '13%'}} src={express}/>
+              ExpressJS <img style={{width: '13%'}} src={express}/>
               </span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <span>
-              <img src="https://img.icons8.com/color/144/000000/ruby-gem.png"/>
+              
+              Ruby On rails <img src="https://img.icons8.com/color/144/000000/ruby-gem.png"/>
               </span>
+              <span>
+              
+              MongoDB <img src="https://img.icons8.com/color/144/000000/mongodb.png"/>
+              </span>
+
+              
+              </div>
               
             </Cell>
         </Grid>

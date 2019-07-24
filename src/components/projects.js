@@ -3,6 +3,9 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, 
 import lex from './lex.jpg'
 import recon from './recon.jpg'
 import make from './make.jpg'
+import stark from './stark.png'
+import gastos from './gastos.png'
+
 
 
 
@@ -58,6 +61,46 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
+           {/* Project 4 */}
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#fff', height: '176px'}} >
+        <img
+          src={stark}
+          alt="reconciliemos"
+          className="web-img"
+          />.com</CardTitle>
+        
+        <CardText>
+          Technology : Ruby on Rails
+        </CardText>
+        <CardActions border>
+        <Button colored><a href='https://obscure-savannah-61787.herokuapp.com/'>Enjoy</a></Button>
+        </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
+
+      {/* Project 5 */}
+      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <CardTitle style={{color: '#fff', height: '176px'}} >
+        <img
+          src={gastos}
+          alt="reconciliemos"
+          className="web-img"
+          />.com</CardTitle>
+        
+        <CardText>
+          Technology : Ruby on Rails
+        </CardText>
+        <CardActions border>
+        <Button colored><a href='https://peaceful-eyrie-81264.herokuapp.com/'>Enjoy</a></Button>
+        </CardActions>
+        <CardMenu style={{color: '#fff'}}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
+
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px'}} >
@@ -77,7 +120,12 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          
+         
+
         </div>
+
+        
 
 
       )

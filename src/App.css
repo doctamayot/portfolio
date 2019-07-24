@@ -1,8 +1,12 @@
+body{
+  font-family: 'Merriweather', serif;
+}
+
 .header-color {
   background:red;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, black, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, black, #27221F, #27221F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  font-family: 'Merriweather', serif;
 }
 
 /*.hamb{
@@ -22,6 +26,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -29,6 +34,7 @@
 
 .projects-grid {
   display: flex;
+  font-family: 'Merriweather', serif;
 }
 
 /* Resume Page css */
@@ -36,6 +42,7 @@
   background: #27221F;
   color: white;
   padding: 2em;
+  font-family: 'Merriweather', serif;
 }
 
 /* contact page css */
@@ -47,6 +54,7 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+  font-family: 'Merriweather', serif;
 }
 
 .contact-grid {
@@ -57,27 +65,35 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
 }
 
 .contact-grid h2 {
+  font-family: 'Merriweather', serif;
 }
 
 .contact-grid p {
   
   font-weight: bold;
+  
 }
 
 .contact-grid hr {
   border-top: 5px dotted black;
   width: 50%;
   margin: auto;
+  
 }
 
 .contact-list i {
   font-size: 66px;
   padding-right: 5rem;
+  
 }
 
+.contact-body{
+  font-family: 'Merriweather', serif;
+}
 
 /* contact page css */
 
@@ -87,6 +103,7 @@
   -webkit-border-radius: 50px;
 -moz-border-radius: 50px;
 border-radius: 50px;
+font-family: 'Merriweather', serif;
   
 }
 
@@ -100,30 +117,35 @@ border-radius: 50px;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  font-family: 'Merriweather', serif;
 }
 
 .banner-text h1  {
   font-size: 60px;
   font-weight: bold;
   color: white;
+  font-family: 'Merriweather', serif;
 }
 
 .banner-text h2  {
   font-size: 40px;
   font-weight: bold;
   color: white;
+  font-family: 'Merriweather', serif;
 }
 
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+  font-family: 'Merriweather', serif;
 }
 
 .banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
+  font-family: 'Merriweather', serif;
 }
 
 .social-links {
@@ -141,6 +163,7 @@ border-radius: 50px;
 
 a{
   text-decoration: none;
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -152,3 +175,15 @@ a{
     }
   }
 
+  @media screen and (max-width: 1028px)  {
+    .letraemail {
+      
+     font-size: 1px;
+     ;
+    }
+  }
+
+.letra{
+  font-family: 'Merriweather', serif;
+  
+}
