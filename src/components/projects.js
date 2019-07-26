@@ -5,6 +5,7 @@ import recon from './recon.jpg'
 import make from './make.jpg'
 import stark from './stark.png'
 import gastos from './gastos.png'
+import lade from './ladefutbol.png'
 
 
 
@@ -55,6 +56,26 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <Button colored><a href='http://www.reconciliemoscolombia.com'>Enjoy</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/* Project lade */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px'}} >
+            <img
+              src={lade}
+              alt="reconciliemos"
+              className="web-img"
+              />.com</CardTitle>
+            
+            <CardText>
+              Technology : Ruby on Rails, Postgres
+            </CardText>
+            <CardActions border>
+            <Button colored><a href='https://morning-everglades-44730.herokuapp.com/'>Enjoy</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />

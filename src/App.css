@@ -35,6 +35,12 @@ body{
 .projects-grid {
   display: flex;
   font-family: 'Merriweather', serif;
+
+}
+
+.projects-grid Card {
+
+
 }
 
 /* Resume Page css */
